@@ -1,0 +1,1 @@
+cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Sys/sysfs.mod := printf '%s\n'   sysfs.o | awk '!x[$$0]++ { print("/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Sys/"$$0) }' > /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Sys/sysfs.mod

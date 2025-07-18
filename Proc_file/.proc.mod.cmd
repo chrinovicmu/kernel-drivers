@@ -1,0 +1,1 @@
+cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Proc_file/proc.mod := printf '%s\n'   proc.o | awk '!x[$$0]++ { print("/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Proc_file/"$$0) }' > /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Proc_file/proc.mod

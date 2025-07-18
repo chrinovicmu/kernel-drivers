@@ -80,8 +80,20 @@ static int scull_trim(struct scull_dev)
 
 static ssize_t read(struct file *file_p, char __user *buff, size_t count, loff_t *offp)
 {
+    struct scull_dev *dev = file_p->private_data; 
+    struct scull_qset *dptr; 
 
+    int quantum = dev->curr_quantum_size; 
+    int qset = dev->curr_qset_size;
+    int item_size = quantum * qset;
+    
+    int item;  /*index of qset node in linked_list */ 
+    int s_pos; /*index inside qset :which quantum */ 
+    int q_pos; /*offset of single quantum */ 
+    int rest; 
+    ssize_t reval = -ENOMEM; /*bytes successfully read : return vlaue */ 
 
+    item = (long)*
 }
 
 static void scull_setup_cdev(struct scull_dev *dev, int index)

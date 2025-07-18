@@ -1,0 +1,1 @@
+cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/IOCTL/ioctl.mod := printf '%s\n'   ioctl.o | awk '!x[$$0]++ { print("/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/IOCTL/"$$0) }' > /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/IOCTL/ioctl.mod

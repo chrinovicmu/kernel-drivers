@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <fcntl.h>
+#include <fnctl.h>
 #include <unistd.h>
 #include <sys/ioctl.h>
 #include <linux/ioctl.h> 

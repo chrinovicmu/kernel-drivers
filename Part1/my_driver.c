@@ -30,6 +30,12 @@ static dev_t dev_num;
 static struct cdev my_cdev;
 static void fill_device_buffer(void); 
 
+static int my_int = 0; 
+module_param(my_int, int , 0644); 
+MODULE_PARM_DESC(my_int, "An intger"); 
+
+static int my_char = "default"; 
+module_param(my_char, charp, 0644); 
 
 struct my_device 
 {
@@ -74,7 +80,7 @@ static void fill_device_buffer(void)
 }
 
 static unsigned int my_poll(struct file *file, struct poll_table_struct *wait)
-{
+
     unsigned int mask= 0; 
 
     /*register process in wait wait queue*/ 

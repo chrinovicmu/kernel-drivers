@@ -1,0 +1,1 @@
+cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/Module.symvers :=  sed 's/ko$$/o/'  /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/modules.order | scripts/mod/modpost -m      -o /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/Module.symvers -e -i Module.symvers -T - 
