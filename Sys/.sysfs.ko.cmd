@@ -1,1 +1,0 @@
-cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Sys/sysfs.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Sys/sysfs.ko /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Sys/sysfs.o /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Sys/sysfs.mod.o;  true

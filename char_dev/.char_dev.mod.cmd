@@ -1,1 +1,0 @@
-cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/char_dev.mod := printf '%s\n'   char_dev.o | awk '!x[$$0]++ { print("/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/"$$0) }' > /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/char_dev.mod

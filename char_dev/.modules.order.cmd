@@ -1,1 +1,0 @@
-cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/modules.order := {   echo /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/char_dev.ko; :; } > /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/char_dev/modules.order

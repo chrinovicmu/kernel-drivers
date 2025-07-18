@@ -1,1 +1,0 @@
-cmd_/home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Proc_file/Module.symvers :=  sed 's/ko$$/o/'  /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Proc_file/modules.order | scripts/mod/modpost -m      -o /home/chrinovic/Tech/Linux_Device_Drivers/Drivers/Proc_file/Module.symvers -e -i Module.symvers -T - 
